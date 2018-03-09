@@ -1,0 +1,463 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*EventBrite*/
+.eventBox{
+	border:1px solid grey;
+	padding:20px;
+	margin:auto;
+	margin-bottom:40px;
+	width: 60%;
+}
+.eventTitle{
+	color:navy;
+}
+.eventImg{
+	width: 100%;
+}
+.eventTxt{
+	text-align:justify;
+	text-indent:50px;
+}
+
+.introImgBox{
+	background-image: linear-gradient(white, transparent, transparent),url('https://farm5.staticflickr.com/4694/40479187432_f3836144ef_z.jpg');
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 773px;
+}
+/*ResolveToChange*/
+.rToChangeBox{
+	background: linear-gradient(to right,black, black, black, transparent, transparent, transparent, transparent, transparent), url('https://farm5.staticflickr.com/4768/25533176837_2ce4811136_z.jpg');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	width:100%;
+	clear:both;
+	height:500px;
+	padding-bottom: 40px;
+}
+.rToChangeTitle, .rToChangeTxt{
+	text-align: left;
+	width: 650px;
+	padding-left: 150px;
+	color:white;
+}
+.rToChangeTitle{
+	padding-top:60px;
+}
+
+/*Donate Button*/
+input.btn-large.cta-blue{
+	margin-top:35px;
+	width: 150px;
+	height: 45px;
+	float: left;
+	margin-left:150px;
+	background-color:DodgerBlue;
+	border:DodgerBlue;
+	color: white;
+	border-radius: 7px;
+
+}
+
+.navWrapper{
+	width: 100%;
+}
+
+/*OurWork*/
+.ourWorkBox{
+	background-image: linear-gradient(to left, white, white, white, white, white, white, transparent, transparent, transparent), url('https://farm5.staticflickr.com/4746/39715554234_91575b7e94_z.jpg');
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	width:100%;
+	clear:both;
+	padding:25px;
+	padding-bottom: 40px;
+	height: 480px;
+}
+ .ourWorkTxt, .ourWorkTitle{
+	text-align: right;
+	width: 650px;
+	float: right;
+	color:black;
+	clear: both;
+	text-align: justify;
+	padding-left:35px;
+}
+.ourWorkTitle{
+	padding-top:80px;
+}
+
+/*getEmails*/
+.getEmails{
+	width: 100%;
+}
+.emails{
+	background-color: DodgerBlue;
+	clear: both;
+}
+.email, .name{
+	float:left;
+	width:385px;
+	margin-left: 25px;
+	height: 35px;
+}
+
+/*aboutUs*/
+.aboutUsBox{
+	padding-top: 50px;
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	margin-bottom: 35px;
+}
+.aboutUsTitle{
+	margin-top:10px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.aboutUsPhrase{
+	text-align: center;
+	margin-left: 288px;
+	width: 910px;
+}
+.aboutUsTxt{
+	text-align:justify;
+	width:910px;
+	margin-left: 288px;
+}
+
+/*SponsorButton*/
+button.sponsorButton.btn.btn.btn-primary{
+	margin-left:478px;
+	margin-top:35px;
+	width:188px;
+	height: 45px;
+	margin-bottom: 50px;
+}
+button.btn-secondary.btn{
+	background-color: white;
+	width:188px;
+	height: 45px;
+	color: blue;
+	border-color: blue;
+	margin-right: 450px;
+	margin-top:35px;
+	margin-bottom: 50px;
+}
+
+/*MainVideo*/
+.mainVideoBox{
+	background: linear-gradient(to right, black, black, black, transparent, transparent), url('https://farm5.staticflickr.com/4747/25533176577_28762db0e3_z.jpg');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	width:100%;
+	clear:both;
+	height: 485px;
+	padding-bottom: 40px;
+	margin-top:-20px;
+}
+/*PlayVideo*/
+.btn-primary{
+	width: 150px;
+	height: 45px;
+	float: left;
+	margin-left:150px;
+}
+.mainVideoTitle, .mainVideoTxt{
+	text-align: left;
+	width: 800px;
+	padding-left: 150px; 
+	color:white;
+}
+.mainVideoTitle{
+	padding-top: 120px;
+}
+
+/*PlayVideo*/
+.playVideo{
+	width: 150px;
+	height: 45px;
+	float: left;
+	margin-left: 150px;
+}
+
+/*Accomplishments*/
+.accomplishmentsBox{
+	padding-top: 50px;
+	background-image: linear-gradient(rgb(124, 176, 205), transparent, transparent),url('https://farm5.staticflickr.com/4787/39740648025_30aec6f196_z.jpg');
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1100px;
+}
+.accomplishmentsTitle{
+	margin-top:60px;
+	text-align: center;
+}
+
+.accomplishmentsPhrase{
+	text-align: center;
+	margin-left: 255px;
+	width: 910px;
+}
+.accomplishmentsTxt{
+	text-align:justify;
+	width:910px;
+	margin-left: 255px;
+}
+.donateButton{
+	width: 150px;
+	height: 45px;
+	background-color:DodgerBlue;
+	border:DodgerBlue;
+	color: white;
+	border-radius: 7px;
+}
+
+
+/*Footer*/
+.brandNameBox{
+	background-color: rgb(227, 237, 247);
+}
+.brandName{
+	color:DodgerBlue;
+	font-size: 26px;
+	margin-top: -45px;
+	padding-top: 45px;
+}
+svg:not(:root){
+	color: grey;
+	font-size: 33px;
+	margin: 15px;
+}
+.instagramLogo{
+}
+
+
+/*Our Impact*/
+.ourImpactBox{
+	background: linear-gradient(to right, black,black,transparent, transparent), url('https://farm5.staticflickr.com/4710/40637270031_5efd4a60b1_z.jpg');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	width:100%;
+	clear:both;
+	height: 485px;
+	padding-bottom: 40px;
+}
+.ourImpactTitle, .ourImpactTxt{
+	text-align: left;
+	width: 800px;
+	padding-left: 150px; 
+	color:white;
+}
+.ourImpactTitle{
+	padding-top: 120px;
+}
+
+
+
+/*PlayClassroom*/
+.playClassroomBox{
+	background: linear-gradient(to right, white, white, white, white, white, transparent, transparent, transparent), url('https://farm5.staticflickr.com/4662/40637100711_3cc5122a6d_z.jpg');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	width:100%;
+	clear:both;
+	height: 485px;
+	padding-bottom: 40px;
+}
+.playClassroomTitle, .playClassroomTxt{
+	text-align: left;
+	width: 800px;
+	padding-left: 150px; 
+	color:black;
+}
+.playClassroomTitle{
+	padding-top:120px;
+}
+
+/*NewarkCity*/
+.newarkCityTitle{
+	text-align: center;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top: 10%;
+	color:white;
+	
+}
+.newarkCityBox{
+	padding-top: 50px;
+	background-color: rgb(151, 156, 171);
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+}
+.newarkCityPhrase{
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	color:white;
+}
+.newarkCityTxt{
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+	color:white;
+}
+
+/*JoinUs*/
+.joinUsBox{
+	background-image: linear-gradient(white, white, transparent, transparent),url('https://farm5.staticflickr.com/4801/40596002762_7c01b0fe12_z.jpg');
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1100px;
+}
+.joinUsTitle{
+	margin-top:10px;
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top:50px;
+}
+
+.joinUsPhrase{
+	text-align: center;
+	margin-left: 288px;
+	width: 910px;
+}
+.joinUsTxt{
+	text-align:justify;
+	width:910px;
+	margin-left: 288px;
+}
+/*JoinUsButton*/
+button.joinUsButton.btn.btn.btn-primary{
+	margin-left:478px;
+	margin-top:35px;
+	width:188px;
+	height: 45px;
+	margin-bottom: 50px;
+}
+button.btn-secondary.btn{
+	background-color: white;
+	width:188px;
+	height: 45px;
+	color: blue;
+	border-color: blue;
+	margin-right: 450px;
+	margin-top:35px;
+	margin-bottom: 50px;
+}
+
+/*PlayTable*/
+.playTableBox{
+	padding-top: 50px;
+	background-image: linear-gradient(white,white, transparent, transparent),url('https://farm5.staticflickr.com/4630/40440476571_30c5ace629_z.jpg');
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1100px;
+}
+.playTableTitle{
+	margin-top:60px;
+	text-align: center;
+}
+
+.playTablePhrase{
+	text-align: center;
+	margin-left: 255px;
+	width: 910px;
+}
+.playTableTxt{
+	text-align:justify;
+	width:910px;
+	margin-left: 255px;
+}
+.playTableVideo{
+	width: 150px;
+	height: 45px;
+	text-align: center;
+	background-color:DodgerBlue;
+	border:DodgerBlue;
+	color: white;
+	border-radius: 7px;
+	margin-left:684px;
+}
+/*ImmersiveProgram*/
+.immersiveProgramBox{
+	background: grey;
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	width:100%;
+	clear:both;
+	height: 485px;
+	padding-bottom: 40px;
+}
+.immersiveProgramTitle{
+	text-align: center;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top: 10%;
+	color:white;
+}
+.immersiveProgramBox{
+	padding-top: 50px;
+	background-color: rgb(151, 156, 171);
+	text-align: center;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+}
+.immersiveProgramPhrase{
+	text-align: center;
+	padding-right: 25%;
+	padding-left: 25%;
+	color:white;
+}
+.immersiveProgramTxt{
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+	color:white;
+}
+
+
+
+
+/*CarouselImg*/
+.carouselImgBox{
+	width: 100%;
+}
+.navColor{
+	background-color: transparent;
+	width: 100%;
+	/*z-index:900;*/
+}
