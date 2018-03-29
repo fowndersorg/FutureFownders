@@ -19,7 +19,9 @@ export default class Footer extends React.Component {
               <div className="col s12">
                 <ul className="center black-text">
                   <a href="#ourWork" className="footer grey-text">OUR WORK</a>
-                  <a href="#aboutUs" className="footer grey-text">ABOUT US</a>
+                  <a href="#aboutUs" className="footer grey-text">ABOUT</a>
+                  <a href="#programs" className="footer grey-text">PROGRAMS</a>
+                  <a href="#events" className="footer grey-text">EVENTS</a>
                   <a href="#donate" className="footer grey-text">DONATE</a>
                   <br/>
                   <br/>

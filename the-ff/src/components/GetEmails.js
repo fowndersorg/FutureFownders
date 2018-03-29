@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap';
 export default class GetEmails extends React.Component {
   render() {
     return (
-      <section className="pd-2 emailBox">
+      <section className="pd emailBox">
         <div className="row">
             <section className="col s12 m12 l5">
                 <FormGroup >

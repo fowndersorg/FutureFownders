@@ -1,14 +1,21 @@
-// Import donate button
-import React from 'react';
 
+
+import React from 'react';
 
 const OurImpact = () => {
 	return (
-		<div className="ourImpactBox">
-			<h3 className="ourImpactTitle">Our Impact</h3>
-			<p className="ourImpactTxt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and sc</p>	
-		</div>
+		<section className="bg home-bg6 pd-2" id="donate">
+			<div className="container pd-5">
+				<div className="row">
+					<div className="col s12 left-align">
+
+					<h2 className="white-text ff">Our Impact</h2>
+					<p className="col s12 white-text flow-text tablet">Future Fownders aims to cultivate and inspire our next generation of leaders by providing real world education for real world impact.</p>
+					
+					</div>
+				</div>
+		 </div>
+		</section>
 	)
 }
-
 export default OurImpact;

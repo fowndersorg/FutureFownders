@@ -66,11 +66,16 @@ nav ul a{
 }
 .pd-2{
 	padding:2% 0;
+	height: 400px;
+}
+.pd-6{
+  padding: 2% 0;
+  height: 593px;
+}
+.pd{
+	padding:2% 0;
 }
 
-.pd-6{
-	padding:6% 0;
-}
 .pd-4{
 	background-color: #EDEDED;
 	padding-bottom: 80px;
@@ -87,6 +92,7 @@ nav ul a{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 .home-bg1{
 	background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),url('https://farm5.staticflickr.com/4694/40479187432_f3836144ef_z.jpg');
 }
@@ -96,16 +102,50 @@ nav ul a{
 	margin-top:-20px;
 }
 .home-bg3{
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),url('https://farm5.staticflickr.com/4747/25533176577_28762db0e3_z.jpg');
+	background-image: linear-gradient(to right,black, black, transparent, transparent),url('https://farm1.staticflickr.com/791/39270939000_bcfc63b648_z.jpg');
+	height: 400px;
 }
 .home-bg4{
-	background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3)),url('https://farm5.staticflickr.com/4787/39740648025_30aec6f196_z.jpg');
+	background-image: url('https://farm5.staticflickr.com/4787/39740648025_30aec6f196_z.jpg');
 }
 .home-bg5{
 	background-image: linear-gradient(to left, white ,transparent),url('https://farm5.staticflickr.com/4746/39715554234_91575b7e94_z.jpg');
 	height: 400px;
 }
-
+.home-bg6{
+	background-image: url('https://farm5.staticflickr.com/4710/40637270031_5efd4a60b1_z.jpg');
+	height: 300px;
+}
+.home-bg7{
+	background-image: linear-gradient(to right, white, white, transparent, transparent), url('https://farm5.staticflickr.com/4662/40637100711_3cc5122a6d_z.jpg');
+	height: 300px;
+}
+.home-bg8{
+	background-color: #7F8A95;
+	height: 300px;
+}
+.home-bg9{
+	background-image: linear-gradient(to bottom, white, transparent), url('https://farm5.staticflickr.com/4801/40596002762_7c01b0fe12_z.jpg');
+}
+.home-bg10{
+	background-image: linear-gradient(to bottom, white, white, transparent, transparent, transparent), url('https://farm5.staticflickr.com/4630/40440476571_30c5ace629_z.jpg');
+}
+.home-bg11{
+	background-color: #3A3A3A;
+	height: 300px;
+}
+.home-bg12{
+	background-image: url('https://farm5.staticflickr.com/4802/40595230382_0f9fb28295_z.jpg');
+}
+.home-bg13{
+	background-image: url('https://farm5.staticflickr.com/4747/25533176577_28762db0e3_z.jpg');
+}
+.home-bg14{
+	background-image: url('https://farm1.staticflickr.com/796/40368991444_427b823dab_z.jpg');
+}
+.home-bg15{
+	background-image: url('https://farm1.staticflickr.com/787/40185376205_55b4156f0c_z.jpg');
+}
 .sociaMediaBox{
 	background-color: #EDEDED;
 	color:#2E9DF7;
@@ -128,6 +168,7 @@ nav ul a{
 	margin-top: 18px !important;
 	margin-right: 20px;
 }
+
 ::placeholder{ 
   color: white !important;
 }
@@ -139,7 +180,7 @@ nav ul a{
 	margin:auto;
 }
 a.footer{
-	margin: 35px;
+	margin: 10px;
 	color:white;
 }
 .ffooter{
@@ -192,12 +233,19 @@ p.white-text.flow-text.tablet{
 	width: 404px;
 }
 .home-bg5{
-	background-image: linear-gradient(to left, white ,transparent),url('https://farm5.staticflickr.com/4746/39715554234_91575b7e94_z.jpg') !important;
+	background-image: linear-gradient(to left, white, white,transparent, transparent),url('https://farm5.staticflickr.com/4746/39715554234_91575b7e94_z.jpg') !important;
 	height: 400px;
 	height: 100%;
 }
 .ourWorkTitle{
 	text-align: center !important;
+}
+.pd-2{
+	padding: 0% 0;
+	height: 420px;
+}
+.pd-9{
+	height: 750px;
 }
 }
 
@@ -212,9 +260,16 @@ p.white-text.flow-text.tablet{
 	padding-left: 28px;
 	padding-right:28px;
 	padding-top:20px;
-	margin-bottom: -20px;
 }
 .pd-2{
+	padding: 0% 0;
+	height: 400px;
+}
+.pd-6{
+  padding: 2% 0;
+  height: 593px;
+}
+.pd {
 	padding: 0% 0;
 }
 .blue-hr{
@@ -245,13 +300,15 @@ p.white-text.flow-text.tablet{
 	width: 58%;
 	text-align: left;
 	padding-left: 3px;
-
 }
-div.container.pd-6{
-	height:889px;
+.emailBox{
+	margin-top: -20px;
 }
 div.container.pd-5{
 	height: 510px;
+}
+div.col.s12.m12.l8.left-align{
+	padding-top: 27px;
 }
 }
 
@@ -290,6 +347,9 @@ p.black-text.flow-text{
    width: 50% !important;
    margin-left: 25% !important;
    margin-right: 25% !important;
+}
+.pd-9{
+	height: 1000px;
 }
 
 }

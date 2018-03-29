@@ -3,12 +3,12 @@ import React from 'react';
 const OurWork = () => {
   return (
 
-  <section className="pd-2">
+  <section className="pd-9 ">
      <div className="row">
        <section>
-       <div className="col s12 m6 l6 bg home-bg5" id="ourWork">
+       <div className="col s12 m12 l6 bg home-bg5" id="ourWork">
        </div>
-            <div className="col s12 m6 l6 left-align">
+            <div className="col s12 m12 l6 left-align">
               <div className="col s12 m12 l4 left-align">
                   <h2 className="ourWorkTitle left-align">Our Work</h2> 
               </div>
