@@ -1,6 +1,6 @@
 
 import React from 'react';
-import PlayVideo from '../components/PlayVideo';
+import ChancellorSchoolVideo from '../components/ChancellorSchoolVideo';
 
 const PlayWhiteBoard = () => {
   return (
@@ -14,7 +14,7 @@ const PlayWhiteBoard = () => {
           </p>
           </div>
         </div>
-        <PlayVideo/>
+        <ChancellorSchoolVideo/>
       </div>
     </section>
   )

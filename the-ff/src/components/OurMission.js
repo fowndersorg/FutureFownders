@@ -10,10 +10,8 @@ const OurMission = () => {
           <div className="col s12 left-align">
 
           <h2 className="white-text">Our Mission</h2>
-          <p className="col s12 white-text flow-text"> Future Fownders is an immersive program 
-           <br/>
-           <br/>
-            Our offering spans the realm of product-based businesses, foundational business theory as well as core intangible requirements for entrepreneurs like leadership, teamwork 
+          <p className="col s12 white-text flow-text"> 
+             Future Fownders aims to cultivate and inspire our next generation of leaders by providing real world education for real world impact.
           </p>
           </div>
         </div>

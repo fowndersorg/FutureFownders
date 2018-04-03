@@ -37,6 +37,11 @@ export default class Footer extends React.Component {
                <a href="https://www.FutureFownders@Fownders.org">
                 <FaEnvelope className="emailLogo" />
                </a>
+               <br/>
+               <br/>
+               <h6>
+                 P.O. Box 200471 Newark, NJ 07102
+               </h6>
               </div>
             </div>
           </section>

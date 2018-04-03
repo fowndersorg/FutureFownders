@@ -8,19 +8,11 @@ import OurWork from './components/OurWork';
 import GetEmails from './components/GetEmails';
 import IntroImg from './components/IntroImg';
 import Footer from './components/Footer';
-import MainVideo from './components/MainVideo';
-import Accomplishments from './components/Accomplishments';
+import NewarkSchool from './components/NewarkSchool';
 import OurImpact from './components/OurImpact';
-import PlayClassroom from './components/PlayClassroom';
+import ChancellorSchool from './components/ChancellorSchool';
 import NewarkCity from './components/NewarkCity';
-import JoinUs from './components/JoinUs';
-import PlayWhiteBoard from './components/PlayWhiteBoard';
 import ImmersiveProgram from './components/ImmersiveProgram';
-import Partners from './components/Partners';
-import OurMission from './components/OurMission';
-import Team from './components/Team';
-import Volunteer from './components/Volunteer';
-import UpcomingEvents from './components/UpcomingEvents';
 
 class App extends Component {
   render() {
@@ -31,20 +23,12 @@ class App extends Component {
         <OurWork/>
         <GetEmails/>
         <AboutUs/>
-        <MainVideo/>
-        <Accomplishments/>
+        <NewarkSchool/>
         <OurImpact/>
-        <PlayClassroom/>
+        <ChancellorSchool/>
         <NewarkCity/>
-        <JoinUs/>
-        <PlayWhiteBoard/>
+        <br/>
         <ImmersiveProgram/>
-        <Partners/>
-        <OurMission/>
-        <Team/>
-        <Volunteer/>
-        <UpcomingEvents/>
-        <GetEmails/>
         <Footer/>
       </div>
     );
