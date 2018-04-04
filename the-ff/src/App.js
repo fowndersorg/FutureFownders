@@ -13,6 +13,11 @@ import OurImpact from './components/OurImpact';
 import ChancellorSchool from './components/ChancellorSchool';
 import NewarkCity from './components/NewarkCity';
 import ImmersiveProgram from './components/ImmersiveProgram';
+import Partners from './components/Partners';
+import OurMission from './components/OurMission';
+import Team from './components/Team';
+import Volunteer from './components/Volunteer';
+import UpcomingEvents from './components/UpcomingEvents';
 
 class App extends Component {
   render() {
@@ -29,6 +34,12 @@ class App extends Component {
         <NewarkCity/>
         <br/>
         <ImmersiveProgram/>
+        <Partners/>
+        <OurMission/>
+        <Team/>
+        <Volunteer/>
+        <UpcomingEvents/>
+        <GetEmails/>
         <Footer/>
       </div>
     );

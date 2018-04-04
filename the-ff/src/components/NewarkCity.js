@@ -2,8 +2,8 @@ import React from 'react';
 
 const NewarkCity = () => {
   return (
-    <section className="bg home-bg8 pd-2" id="NewarkCity">
-      <div className="container pd-2">
+    <section className="bg home-bg8 pd" id="NewarkCity">
+      <div className="container pd">
         <div className="row">
           <div className="col s12 left-align">
 

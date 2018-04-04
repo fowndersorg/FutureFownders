@@ -1,6 +1,5 @@
 
 import React from 'react';
-import ReadMoreButton from '../components/ReadMoreButton';
 
 const OurMission = () => {
   return (
@@ -15,7 +14,6 @@ const OurMission = () => {
           </p>
           </div>
         </div>
-        <ReadMoreButton/>
       </div>
     </section>
   )

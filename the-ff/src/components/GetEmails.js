@@ -7,29 +7,27 @@ export default class GetEmails extends React.Component {
     return (
       <section className="pd emailBox">
         <div className="row">
-            <section className="col s12 m12 l5">
-                <FormGroup >
-                  <Label  for="exampleName"></Label>
-                  <Input className="emailForm" type="name" name="name" id="exampleName" placeholder="*Full Name" />
-               </FormGroup>
-              </section>
-            <section className="col s12 m12 l5">
+          <section>
+            <div className="col s12 m5">
+              <FormGroup >
+                <Label  for="exampleName"></Label>
+                <Input className="emailForm" type="name" name="name" id="exampleName" placeholder="*Full Name" />
+              </FormGroup>
+            </div>
+              <div className="col s12 m5">
                 <FormGroup >
                   <Label  for="exampleName"></Label>
                   <Input className="emailForm" type="email" name="email" id="exampleEmail" placeholder=" *Emails" />
                </FormGroup>
-            </section>
-            <section className="col s12 m12 l2">
-              <FormGroup className="send">
-               <Button >GET OUR EMAILS</Button>
-              </FormGroup>
+              </div>
+              <div className="col s12 m2">
+                <FormGroup className="send">
+                  <Button >GET OUR EMAILS</Button>
+                </FormGroup>
+              </div>
             </section>   
           </div>
       </section>
-       
-            
-         
-       
       );
     }
   }

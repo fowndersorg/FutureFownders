@@ -1,19 +1,31 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 export default class VolunteerForm extends React.Component {
   render() {
     return (
-      <div  className="btn.brand-blue">
-        <form  className="btn.brand-blue" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick"/>
-                <input type="hidden" name="hosted_button_id" value="RLME4T28HXER4"/>
-                <input type="submit" value="VOLUNTEER" name="submit" title="PayPal - The safer, easier way to pay online!" className=" btn brand-blue"/>
-                <img  alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-            </form>
-      </div>
+      <Form className="volunteerFormColor">
+       <h2 className="volunteerFormTitle">VOLUNTEER FORM</h2>
+       <div className="container">
+        <FormGroup>
+          <Label for="exampleName" className="white-text formTxt">Your Name (required)</Label>
+          <Input type="name" name="name" id="exampleName" />
+        </FormGroup>
+        <FormGroup>
+          <Label for="exampleEmail" className="white-text formTxt">Your Email (required)</Label>
+          <Input type="name" name="name" id="exampleEmail"/>
+        </FormGroup>
+         <FormGroup>
+          <Label for="exampleSubject" className="white-text formTxt"> Subject</Label>
+          <Input type="subject" name="subject" id="exampleSubject" />
+        </FormGroup>
+        <FormGroup>
+          <Label for="exampleText" className="white-text formTxt">Your Message</Label>
+          <Input type="textarea" name="text" id="exampleText" />
+        </FormGroup>
+        <Button className="submitColor">Submit</Button>
+       </div>
+      </Form>
     );
   }
 }
-
-

@@ -8,7 +8,7 @@ const UpcomingEvents = () => {
 			<div className="container pd-2" id="events">
 				<div className="row">
 					<div className="col s12 left-align">
-					<h2 className="white-text ff">Upcoming Events </h2>
+					<h2 className="white-text ff bold">UPCOMING EVENTS</h2>
 					</div>
 				</div>
 		 </div>
