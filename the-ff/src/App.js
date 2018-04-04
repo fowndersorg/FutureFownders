@@ -17,7 +17,6 @@ import Partners from './components/Partners';
 import OurMission from './components/OurMission';
 import Team from './components/Team';
 import Volunteer from './components/Volunteer';
-import UpcomingEvents from './components/UpcomingEvents';
 
 class App extends Component {
   render() {
@@ -38,7 +37,6 @@ class App extends Component {
         <OurMission/>
         <Team/>
         <Volunteer/>
-        <UpcomingEvents/>
         <GetEmails/>
         <Footer/>
       </div>
